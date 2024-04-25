@@ -1,0 +1,17 @@
+:root{
+    /* FONT */
+    --font-mont-serrat: "Montserrat'" sans-serif;
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --bg-header-footer: #101010;
+    --bg-main: #141414;
+    --bg-section: #292929;
+    --bg-hr: #292929;
+    --button: #1ed760;
+    --button-border: #878787;
+    --hover: #1ed760;
+    --input-bg: #121212;
+    --text-base: #fff;
+    --text-secundary: #a7a7a7;
+}

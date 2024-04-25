@@ -1,0 +1,109 @@
+body {
+	font-family: 'Courier Prime', monospace;
+	background-color: #f4f4f4;
+	color: black;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 1rem 0;
+	border-bottom: 0.0625rem dashed black;
+}
+h1 {
+    font-size: 2rem;
+    margin: 1.25rem 0;
+}
+header nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+header a {
+	margin: 0 0.9375rem;
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0 1rem;
+	max-width: 40rem;
+}
+section {
+	padding: 2rem;
+}
+h2 {
+	font-size: 1.5625rem;
+	margin: 0 0 1.5rem ;
+}
+#about, #skills {
+	border-bottom: 0.0625rem dashed black;
+}
+#about p, #skill-item, details p {
+	text-align: justify;
+	margin: 0.625rem;
+}
+img.profile {
+	display: block;
+	width: 9.375rem;
+	height: 9.375rem;
+	border-radius: 100%;
+	margin: 0.625rem auto;
+	border: 0.125rem solid black;
+}
+#about ul  {
+	line-height: 1.563rem;
+	text-align: justify;
+}
+#about ul .name {
+	text-align: center;
+	font-size: 1.125rem;
+	font-weight: 600;
+	margin: 0 0 1rem 0;
+}
+#skills .skill-item {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#skills .skill-item img{
+	width: 6.25rem;
+	margin: 0.625rem;
+}
+.project-list details {
+	border: 0.125rem dashed black;
+	padding: 1rem;
+	margin: 0.625rem;
+	border-radius: 0;
+	transition: all 0.3s;
+}
+.project-list details:hover {
+	border: 0.125rem solid black;
+}
+.project-list details a {
+	color: black;
+	text-decoration: none;
+	margin: 0 0 0 0.625rem;
+}
+.project-list details a:hover {
+	font-weight: bold;
+}
+footer {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+	border-top: 0.0625rem dashed black;
+}
+footer a {
+	color: black;
+}
+footer a:hover {
+	font-weight: bold;
+}

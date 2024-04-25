@@ -1,0 +1,200 @@
+body {
+    font-family: var(--font-dm-sans), var(--font-mont-serrat);
+}
+header {
+    background-color: var(--bg-header-footer);
+    padding: 1.875rem 0 1.875rem 3.188rem; /* 30px 0px 30px 51px */
+}
+.logo img {
+    width: 7.5rem; /* 120px */
+}
+
+/* Inicio - Conectar contas */
+
+section {
+    display: flex;
+    background: linear-gradient(var(--bg-section), #000000);
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    background: var(--bg-main);
+    border-radius: 0.5625rem; /* 9px */
+    margin: 2rem 0; /* 32px 0px */
+    width: 45.9375rem; /* 735px */
+    height: 59.375rem; /* 950px */
+}
+.main h1 {
+    color: var(--text-base);
+    text-align: center;
+    margin: 3.75rem 0; /* 60px 0px */
+    font-size: 3rem; /* 48px */
+}
+.main .connect-account {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .connect-account .button {
+    background: transparent;
+    border-radius: 6.25rem; /* 100px */
+    border: 0.0625rem solid var(--button-border); /* 1px */
+    font-size: 1rem; /* 16px */
+    font-weight: 700;
+    color: var(--text-base);
+    width: 20rem; /* 320px */
+    text-align: center;
+    justify-content: center;
+    padding: 0.9375rem 1.25rem; /* 15px 20px */
+    margin: 0.3125rem 0; /* 5px 0px */
+}
+.main .connect-account .button img {
+    width: 1.4375rem; /* 23px */
+    margin: 0 0.625rem; /* 0px 10px */
+    float: left;
+}
+.main .connect-account .button span {
+    position: relative;
+    top: 0.1875rem; /* 3px */
+}
+.main hr {
+    margin: 2rem 6.25rem; /* 32px 100px */
+    border-top: 0.0625rem solid var(--bg-hr); /* 1px */
+    border-right: none;
+    border-left: none;
+    border-bottom: none ;
+}
+
+/* Fim - Conectar conta */
+
+/* Início - Credencias de entrada  */
+
+.main .login {
+    display: flex;
+    justify-content: center;
+}
+.main .login form label {
+    display: inline-block;
+    color: var(--text-base);
+    font-size: 0.875rem; /* 14px */
+    margin-bottom: 0.5rem; /* 8px */
+    font-weight: 600;
+}
+.main .login form input {
+    display: block;
+    padding: 0.875rem; /* 14px */
+    width: 20rem; /* 320px */
+    font-size: 0.9375rem; /* 15px */
+    font-weight: 400;
+    margin-bottom: 0.5rem; /* 8px */
+    background: var(--input-bg);
+    color: var(--text-base);
+}
+.switch {
+    position: relative;
+    display: flex;
+    border-radius: 40px;
+  }
+.switch #input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #727272;
+    border-radius: 40px;
+    transition: .4s;
+    width: 32px;
+    height: 16px;
+  }
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 3px;
+    bottom: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    transition: .4s;
+  }
+.switch input:checked + .slider {
+    background-color: #1de760;
+  }
+.switch input:checked + .slider:before {
+    transform: translateX(15px);
+  }
+.main .login .switch p  {
+    color: var(--text-base);
+    font-weight: 700;
+    font-size: 0.875rem; /* 14px */
+    margin-left: 40px;
+    margin-top: 2px;
+}
+.main .login button {
+    background-color: var(--button);
+    border-radius: 1.875rem; /* 30px */
+    font-weight: 600;
+    font-size: 1rem; /* 16px */
+    width: 20rem; /* 320px */
+    height: 3rem; /* 48px */
+    padding: 0.5rem 2rem; /* 8px 32px */
+    margin: 1.25rem 0.625rem; /* 20px */
+}
+.main .login button:hover {
+    transform: scale(1.04);
+}
+.main .login a {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-base);
+    font-weight: 500;
+}
+.main .login a:hover {
+    color: var(--hover);
+}
+
+/* Fim - Credencias de entrada  */
+
+/* Início - Inscrever-se */
+
+.main .register {
+    margin: 0.625rem 0; /* 10px 0px */
+    text-align: center;
+}
+.main .register span {
+    color: var(--text-secundary);
+    margin-right: 0.1875rem; /* 3px */
+}
+.main .register a {
+    color: var(--text-base);
+    font-weight: 500;
+}
+.main .register a:hover {
+    color: var(--hover);
+}
+
+/* Fim - Inscrever-se */
+
+/* Footer */
+
+.security {
+    background-color: var(--bg-header-footer);
+    color: var(--text-secundary);
+    padding: 2rem; /* 32px */
+    text-align: center;
+    font-size: 0.6875rem;
+}
+.security #link {
+    color: var(--text-secundary);
+}
+
+/* Footer */

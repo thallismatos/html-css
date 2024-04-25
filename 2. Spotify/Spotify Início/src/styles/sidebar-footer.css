@@ -1,0 +1,238 @@
+body {
+    background-color: var(--bottom-one);
+    font-family: var(--font-dm-sans), var(--font-mont-serrat);
+}
+
+/* Menu Lateral */
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0.5rem; /*  8px */
+    width: 26.25rem; /* 420px */
+}
+.sidebar__navigation .logo{
+    display: flex;
+    background-color: var(--bottom-two);
+    border-radius: 0.5rem; /*  8px */
+    padding: 0.75rem 0 0 1rem;/* 12px 0px 0 px 16px */
+}
+.sidebar__navigation .logo img {
+    width: 5rem; /* 80px */
+}
+.sidebar__navigation{
+    background-color: var(--bottom-two);
+    border-radius: 0.5rem; /* 8px */
+    padding: 0.688rem 0 0 0.688rem; /* 11px 0px 0px 11px */
+    cursor: pointer;
+}
+.sidebar nav ul {
+    margin-top: 1.25rem; /* 20 px */
+    padding: 0 1.563rem 0.625rem 0.938rem; /* 0px 25px 10px 15px */
+    list-style: none;
+}
+.sidebar nav ul li {
+    padding: 0.625rem 0; /* 10px 0px */
+    }
+.sidebar nav ul li a {
+    color: var(--text-sub);
+    text-decoration: none;
+    font-weight: 650;
+    font-size: 1.125rem; /* 18px */
+}
+.sidebar nav ul li .bi {
+    font-size: 1.25rem; /* 20px */
+    margin-right: 0.625rem; /* 10px */
+    font-weight: 300;
+}
+.sidebar nav ul li a:hover {
+    color: var(--button-hover);
+} 
+
+/* Fim do Menu Lateral */
+
+/* Sua Biblioteca */
+
+.library {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bottom-two);
+    border-radius: 0.5rem; /* 8px */
+    padding: 0.5rem; /* 8px */
+    color: var(--text-base-light);
+    font-weight: 700;
+    font-size: 1.125rem; /* 18px */
+    margin-top: 0.5rem; /* 8px */
+  }
+.library__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.library__button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--text-sub);
+    background-color: transparent;
+    font-size: 1rem; /* 16px */
+    text-decoration: none;
+    padding: 0.75rem 1rem; /* 12px 16px */
+    border: none;
+    font-family: var(--font-mont-serrat);
+    font-weight: 700;
+  }
+.library__button .bi {
+    font-size: 1.25rem; /* 20px */
+    margin-right: 1rem; /* 16px */
+    font-weight: 300;
+  }
+.library__content .bi-plus {
+    font-size: 1.5rem; /* 24px */
+    color: var(--text-sub);
+  }
+.library__button:hover,
+.library__content .bi-plus:hover {
+    color: var(--button-hover);
+  }
+.section-library{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem; /* 20px */
+    background-color: var(--bottom-three);
+    color: var(--text-base-light);
+    font-weight: 600;
+    font-size: 1rem; /* 16px */
+    margin: 0.75rem 0; /* 12px 0px */
+    padding: 0.938rem 1.25rem; /* 15px 20px */
+    border-radius: 0.625rem; /* 10px */
+}
+.section-library .section-library__content {
+    display: flex;
+    flex-direction: column;
+}
+.section-library .section-library__content .text{
+    padding-bottom: 0.875rem; /* 14px */
+    color: var(--text-base-light);
+}
+.section-library .section-library__content .title{
+    font-weight: 700;
+}
+.section-library .section-library__content .subtitle{
+    font-weight: 500;
+    font-size: 0.875rem; /* 14px */
+}
+.section-library .section-library__content #playlist{ 
+    width: 6.875rem; /* 110px */
+}
+.section-library .section-library__content .section__button{ 
+    display: flex;
+    justify-content: center;
+    color: var(--button-text);
+    background-color: var(--button-bottom);
+    border-radius: 1.25rem; /* 20px */
+    font-size: 0.875rem; /* 14px */
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 0.75rem; /* 12px */
+    margin-top: 0.625rem; /* 10px */
+    width: 10rem; /* 160px */
+    border: none;
+    font-family: var(--font-mont-serrat);
+}
+.section-library .section-library__content .section__button:hover{
+    transform: scale(1.04);
+}
+ /* Fim da Sua Biblioteca */
+
+ /* Políticas e Contratos - Linguagens */
+
+.links- {
+    display: inline-flex;
+    padding: 0 0.313rem; /* 0px 5px */
+}
+.links- .privacy{
+    background-color: var(--button-privacy);
+    border-radius: 0.5rem; /* 8px */
+    margin: 0.438rem 0 0 0.313rem; /* 7px 0px 0px 5px */
+    width: 1.188rem; /* 19px */
+    height: 0.563rem; /* 9px */
+}
+.sidebar .links {
+   padding: 5.938rem 0 0.313rem 0.625rem; /* 95px 0px 5px 10px */
+   line-height: 1.563rem; /* 25px */
+   margin-right: 1.875rem; /* 30px*/
+}
+.sidebar .links a {
+    color: var(--text-sub);
+    text-decoration: none;
+    font-size: 0.625rem; /* 10px */
+}
+.sidebar .links a:hover {
+    text-decoration: underline;
+}
+.languages .languages_button{
+    background-color: transparent;
+    color: var(--text-base-light);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10.938rem; /* 175px */
+    margin: 1.5rem; /* 24px */
+    padding: 0.625rem; /* 10px */
+    border: 0.063rem solid var(--color-border-languages-button); /* 1px */
+    border-radius: 1.25rem; /* 20px */
+    align-items: center;
+}
+.languages .languages_button:hover{
+    transform: scale(1.04);
+    color: var(--text-base-light);
+}
+
+/* Fim das Políticas e Contratos - Linguagens */
+
+/* Rodapé */
+
+.footer_{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    right: 0.5rem; /* 8px */
+    left: 0.5rem; /* 8px */
+    bottom: 0.5rem; /* 8px */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    background: var(--bg-grad);
+}
+.footer_ .text{
+    flex-shrink: 0;
+}
+.text .footer-title{
+    color: var(--text-base-light);
+    font-size: 0.75rem; /* 13px */
+    font-weight: 700;
+    margin: 0.3125rem 0 0.3125rem 0; /* 5px 0px 5px 0px */
+}
+.text .footer-subtitle{
+    color: var(--text-base-light);
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+}
+.button_footer button{
+    border-radius: 1.875rem; /* 30px*/
+    border: none;
+    color: var(--button-text);
+    background-color: var(--button-bottom);
+    padding: 0.938rem 1.875rem; /* 15px 30px */
+    font-weight: bold;
+    font-size: 1rem; /* 16px */
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.button_footer button:hover{
+    transform: scale(1.04);
+}
+
+/* Fim do Rodapé */

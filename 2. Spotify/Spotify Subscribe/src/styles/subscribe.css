@@ -1,0 +1,126 @@
+body {
+    background-color: var(--bg-header);
+    font-family: var(--font-mont-serrat), var(--font-dm-sans);
+}
+header {
+    padding: 1.875rem 0 1.875rem 2.188rem; /* 30px 0px 30px 35px */
+}
+.logo img {
+    width: 6.875rem; /* 110px */
+}
+
+/* Inicio - Inscrever-se */
+
+section {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    width: 20.313rem; /* 325px */
+    padding: 0 2rem; /* 0px 32px */
+}
+.main h1 {
+    color: var(--text-base);
+    font-size: 3rem; /* 48px */
+    margin-bottom: 3.125rem; /* 50px */
+}
+.main .register form label {
+    display: inline-block;
+    color: var(--text-base);
+    font-size: 0.875rem; /* 14px */
+    margin-bottom: 0.5rem; /* 8px */
+    font-weight: 600;
+}
+.main .register form input {
+    display: block;
+    padding: 0.875rem; /* 14px */
+    width: 18.125rem; /* 290px */
+    font-size: 0.9375rem; /* 15px */
+    font-weight: 400;
+    margin-bottom: 0.9375rem; /* 15px */
+    background: var(--input-bg);
+    color: var(--text-base);
+}
+.main .register a {
+    color: var(--hover);
+}
+.main .register button {
+    background-color: var(--button);
+    border-radius: 1.875rem; /* 30px */
+    font-weight: 600;
+    font-size: 1rem; /* 16px */
+    width: 20.313rem; /* 325px */
+    height: 3rem; /* 48px */
+    margin: 1.5625rem 0 0 0; /* 25px 0px 0px 0px */
+}
+
+/* Fim - Inscrever-se */
+
+/* Inicio - Conectar contas */
+
+.main .connect-account {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.main .connect-account button {
+    background: transparent;
+    border-radius: 1.5625rem; /* 100px */
+    border: 0.0625rem solid var(--button-border); /* 1px */
+    font-size: 1rem; /* 16px */
+    font-weight: 700;
+    color: var(--text-base);
+    width: 20.313rem; /* 325px */
+    text-align: center;
+    justify-content: center;
+    padding: 0.9375rem 1.25rem; /* 15px 20px */
+    margin: 0.3125rem 0; /* 5px 0px */
+}
+.main .connect-account .button img {
+    width: 1.5625rem; /* 25px */
+    margin: 0 0.625rem; /* 0px 10px */
+    float: left;
+}
+.main .connect-account .button span {
+    position: relative;
+    top: 0.1875rem; /* 3px */
+}
+.main hr {
+    margin: 1.875rem 0; /* 30px 0px */
+    border-top: 0.0625rem solid var(--bg-hr); /* 1px */
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.main .login {
+    margin-bottom: 5rem; /* 80px */
+    text-align: center;
+}
+.main .login span {
+    color: var(--text-secundary);
+    margin-right: 0.1875rem; /* 3px */
+}
+.main .login a {
+    color: var(--text-base);
+    font-weight: 500;
+}
+.main .login a:hover {
+    color: var(--hover);
+}
+
+/* Fim - Conectar contas */
+
+/* Footer */
+
+.security {
+    color: var(--text-secundary);
+    text-align: center;
+    font-size: 0.6875rem; /* 11px */
+    line-height: 0.9375rem; /* 15px */
+}
+.security #link {
+    color: var(--text-secundary);
+}
+
+/* Footer */

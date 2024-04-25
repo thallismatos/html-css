@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spotify</title>
+
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="src/styles/main-content.css">
+
+    <link rel="shortcut icon" href="src/assets/icons/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+    <header class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="src/assets/icons/logo-spotify.png" alt="Logo do spotify">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="bi bi-house"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="bi bi-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="bi bi-collection"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="bi bi-plus"></span>
+            </div>
+            <section class="section-library">
+                <div class="section-library__content">
+                    <span class="text title">Crie sua primeira playlist.</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section__button" id="playlist">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <section class="section-library">
+                <div class="section-library__content">
+                    <span class="text title">Que tal seguir um podcast novo?</span>
+                    <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+                    <button class="section__button">
+                        <span>Explore podcasts</span>
+                    </button>
+                </div>
+            </section>
+            <div class="links">
+                <div class="links-">
+                    <a href="">Legal</a>
+                </div>
+                <div class="links-">
+                    <a href="">Centro de Privacidade</a>
+                </div>
+                <div class="links-">
+                    <a href="">Política de Privacidade</a>
+                </div>
+                <div class="links-">
+                    <a href="">Cookies</a>
+                </div>
+                <div class="links-">
+                    <a href="">Sobre anúncios</a>
+                </div>
+                <div class="links-">
+                    <a href="">Acessiblidade</a>
+                </div>
+                <div class="links-">
+                    <a href="">Notice at Collection</a>
+                </div>
+                <div class="links-">
+                    <a href="">Your Privacy Choices</a>
+                    <a href=""><button class="privacy"></button></a>
+                </div>
+                <br>
+                <div class="links-">
+                    <a href="">Cookies</a>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="languages_button">
+                    <span class="bi bi-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <nav class="topbar" id="top_bar">
+            <div class="next-buttons">
+                <button type="button" class="bi bi-arrow-left">
+                </button>
+                <button class="bi bi-arrow-right">
+                </button>
+            </div>
+
+            <div class="nav_bar">
+                <ul>
+                    <li><a href="">Premium</a></li>
+                    <li><a href="">Suporte</button></a></li>
+                    <li><a href="">Baixar</a></li>
+                    <li class="bar">|</li>
+                    <li><a href="/Spotify Subscribe/index_subscribe.html" class="subscribe">Inscrever-se</a></li>
+                </ul>
+                <a href="/Spotify Login/index_login.html"><button class="login">Entrar</button></a>
+            </div>
+        </nav>
+
+        <section class="playlist">
+            <div class="introduction">
+                <p id="intro">Playlists do Spotify</p>
+                <a href="" id="button_session">Mostrar tudo</a>
+            </div>
+
+            <div class="list">
+                <div class="item">
+                    <img src="src/assets/playlist/1.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+                <div class="item">
+                    <img src="src/assets/playlist/2.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+                <div class="item">
+                    <img src="src/assets/playlist/3.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+                <div class="item">
+                    <img src="src/assets/playlist/4.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+                <div class="item">
+                    <img src="src/assets/playlist/5.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+                <div class="item">
+                    <img src="src/assets/playlist/6.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+                <div class="item">
+                    <img src="src/assets/playlist/7.jpeg" alt="">
+                    <div class="play">
+                        <span class="bi bi-play-fill"></span>
+                    </div>
+                    <h4>Today's top hits</h4>
+                    <p>Rema & Selena Gomes</p>
+                </div>
+            </div>
+
+            <div class="more-info">
+                <div class="company">
+                    <p>Empresa</p>
+                    <ul>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Empregos</a></li>
+                        <li><a href="">For the Record</a></li>
+                    </ul>
+                </div>
+                <div class="community">
+                    <p>Comunidades</p>
+                    <ul>
+                        <li><a href="">Para Artistas</a></li>
+                        <li><a href="">Desenvolvedores</a></li>
+                        <li><a href="">Publicidade</a></li>
+                        <li><a href="">Investidores</a></li>
+                        <li><a href="">Fornecedores</a></li>
+                    </ul>
+                </div>
+                <div class="useful_links">
+                    <p>Links úteis</p>
+                    <ul>
+                        <li><a href="">Suporte</a></li>
+                        <li><a href="">Aplicativo móvel grátis</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-networks">
+                    <a href=""><span class="bi bi-instagram"></span></a>
+                    <a href=""><span class="bi bi-twitter-x"></span></a>
+                    <a href=""><span class="bi bi-facebook"></span></a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &copy; 2024 Spotify AB</p>
+        </section>
+
+    </main>
+
+    <footer class="footer_">
+        <div class="text">
+            <p class="footer-title">Testar o Premium de graça</p>
+            <P class="footer-subtitle">Inscreva-se para curtir música ilimitada e podcasts ilimitados só com alguns
+                anúncios. Não é necessário cartão de crédito.
+            </P>
+        </div>
+        <div class="button_footer">
+            <a href="/Spotify Subscribe/index_subscribe.html"><button type="button">Inscreva-se grátis</button></a>
+        </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

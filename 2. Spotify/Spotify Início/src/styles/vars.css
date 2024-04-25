@@ -1,0 +1,24 @@
+:root{
+    /* FONT */
+    --font-mont-serrat: "Montserrat'" sans-serif;
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --bottom-one: #000;
+    --bottom-two: #121212;
+    --bottom-three: #242424;
+    --button-bottom:#fff;
+    --button-text:#000;
+    --button-privacy: rgb(0, 110, 255);
+    --button-hover: #fff;
+    --bg-arrow-color:rgb(14, 13, 13);
+    --bg-grad: linear-gradient(to right, #ae2896, #509bf5);
+    --color-border-languages-button: #878787;
+    --color-bar-vertical: #fff;
+    --color-button-topbar:  #303030;
+    --color-button-play:  #1db954;
+    --color-subtitle-list: #989898;
+    --icons-social: #fff;
+    --text-base-light:#fff;
+    --text-sub:#a7a7a7;
+}
